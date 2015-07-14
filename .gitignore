@@ -162,4 +162,5 @@ node_modules
 *.db
 *.swp
 bundle.js
-example
+example/1
+example/gb

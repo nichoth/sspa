@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "npm run clean && node bin/render.js",
+    "clean": "rm -rf dist/*"
+  },
+  "dependencies": {
+    "hyperstream": "^1.2.2",
+    "writestreamp": "^0.1.0"
+  }
+}
