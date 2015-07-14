@@ -164,3 +164,4 @@ node_modules
 bundle.js
 example/1
 example/gb
+dist/

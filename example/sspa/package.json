@@ -4,6 +4,8 @@
     "clean": "rm -rf dist/*"
   },
   "dependencies": {
+    "fs-walk": "0.0.1",
+    "glob": "^5.0.13",
     "hyperstream": "^1.2.2",
     "writestreamp": "^0.1.0"
   }
