@@ -1,12 +1,18 @@
 {
   "scripts": {
-    "build": "npm run clean && node bin/render.js",
+    "build": "npm run clean && node bin/build.js",
     "clean": "rm -rf dist/*"
   },
   "dependencies": {
     "fs-walk": "0.0.1",
     "glob": "^5.0.13",
+    "http-hash": "^1.1.1",
     "hyperstream": "^1.2.2",
+    "map-stream": "0.0.6",
+    "recursive-readdir": "^1.2.1",
+    "routes": "^2.1.0",
+    "ruta3": "^2.0.0",
+    "vinyl-fs": "^1.0.0",
     "writestreamp": "^0.1.0"
   }
 }
